@@ -16,5 +16,10 @@ namespace Kmd.Logic.FileSecurity.Client.DocumentPrivilegesSample
         /// Gets or sets filesecurity configuration options.
         /// </summary>
         public FileSecurityOptions FileSecurityOptions { get; set; } = new FileSecurityOptions();
+
+        /// <summary>
+        /// Gets or sets Sign Configuration details.
+        /// </summary>
+        public SignConfigurationDetails SignConfigurationDetails { get; set; } = new SignConfigurationDetails();
     }
 }
